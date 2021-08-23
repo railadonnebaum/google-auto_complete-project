@@ -1,5 +1,4 @@
 try:
-    from db_dict_alpha import DBDictAlpha
     from trie_node import TrieNode
 except ImportError:
     print("Need to fix the installation")
@@ -8,7 +7,6 @@ except ImportError:
 class Trie:
     def __init__(self):
         self.__root = TrieNode()
-        self.__dict_alpha = DBDictAlpha()
 
     def insert(self, string, offset, file):
         node = self.__root
