@@ -1,4 +1,4 @@
-Complete sentences automatically  
+# Complete sentences automatically  
  
 In order to make the user experience of the Google search engine better, the development team decided to enable the completion of sentences from articles, documentation and information files on various technological topics.  
 
